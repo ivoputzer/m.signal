@@ -1,4 +1,29 @@
 {
   "name": "m.signal",
-  "version": "0.0.0-draft"
+  "version": "0.0.0",
+  "description": "m(icro)signal is a lightweight signaling server written in es6+",
+  "main": "index.js",
+  "dependencies": {
+    "wss": "^3.0.2"
+  },
+  "devDependencies": {
+    "standard": "^8.6.0",
+    "m.test": "0.0.53",
+    "ws": "^2.1.0"
+  },
+  "scripts": {
+    "node": "node",
+    "lint": "standard",
+    "test": "m.test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivoputzer/m.signal.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivoputzer/m.signal/issues"
+  },
+  "homepage": "https://github.com/ivoputzer/m.signal#readme"
 }
